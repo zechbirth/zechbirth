@@ -9,7 +9,7 @@
 
 <div align="center" style="margin-top:-90px;">
   <img 
-    src="https://media.licdn.com/dms/image/v2/D4D35AQEzeZJbC2R4hQ/profile-displayphoto-shrink_200_200/B4DZVgfdHhH0AY-/0/1751633753998?e=1769644800&v=beta&t=J0e4V9y3pF1C2KjK6zJwQe9C2Wk9nV6H3CqZpXj6wQk"
+    src="https://media.licdn.com/dms/image/v2/D4D03AQG3OZqdnUeVqA/profile-displayphoto-scale_200_200/B4DZni0l0EIcAg-/0/1760447064406?e=1769644800&v=beta&t=c3p7bIQgY5W3MTCtHbKsWQThwXeTKrJ4XVJyKB8BLxM"
     alt="Zech profile photo"
     width="160"
     style="border-radius:50%; border:5px solid white; background:white;"
