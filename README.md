@@ -70,6 +70,62 @@ I work translating **real-world complexity** into **robust computational systems
 
 ---
 
+## 📚 Research & Reading Recommendations
+A curated list of **peer-reviewed papers, institutional research and foundational works** that influence my thinking and system design.
+
+### 🧠 Artificial Intelligence & Hybrid Systems
+- **"Neuro-Symbolic AI: The 3rd Wave" — Henry Kautz (AAAI)**  
+  https://ojs.aaai.org/index.php/AAAI/article/view/17775
+
+- **"Combining Neural Networks and Symbolic AI" — Garcez et al. (Springer)**  
+  https://link.springer.com/article/10.1007/s10994-019-05834-6
+
+- **"On the Opportunities and Risks of Foundation Models" — Stanford CRFM**  
+  https://arxiv.org/abs/2108.07258
+
+---
+
+### 🤖 AI Agents & Autonomous Systems
+- **"Generative Agents: Interactive Simulacra of Human Behavior" — Stanford & Google**  
+  https://arxiv.org/abs/2304.03442
+
+- **"ReAct: Synergizing Reasoning and Acting in Language Models" — Yao et al.**  
+  https://arxiv.org/abs/2210.03629
+
+---
+
+### 🔐 Security, Privacy & Ethics
+- **"Adversarial Examples in Machine Learning" — Ian Goodfellow et al.**  
+  https://arxiv.org/abs/1412.6572
+
+- **"Ethical and Social Risks of Harm from Language Models" — Weidinger et al. (DeepMind)**  
+  https://arxiv.org/abs/2112.04359
+
+- **NIST AI Risk Management Framework**  
+  https://www.nist.gov/itl/ai-risk-management-framework
+
+---
+
+### ⚙️ Complex & Distributed Systems
+- **"A Philosophy of Software Design" — John Ousterhout (Stanford)**  
+  https://web.stanford.edu/~ouster/cgi-bin/book.php
+
+- **"Designing Data-Intensive Applications" — Martin Kleppmann**  
+  https://dataintensive.net/
+
+---
+
+### ⚛️ Quantum & Emerging Computing
+- **"Quantum Machine Learning" — Biamonte et al. (Nature)**  
+  https://www.nature.com/articles/nature23474
+
+- **IBM Quantum Learning Resources**  
+  https://quantum.ibm.com/learn
+
+> This list evolves continuously as research advances.
+
+---
+
 ## 🧪 Projects & Labs
 Some things I’m actively building or experimenting with:
 
