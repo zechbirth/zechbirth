@@ -1,20 +1,11 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
   <img 
-    src="https://media.licdn.com/dms/image/v2/D4D16AQFxNEAxkC1qsQ/profile-displaybackgroundimage-shrink_350_1400/B4DZfVgfOeH4AY-/0/1751633754005?e=1769644800&v=beta&t=tOq592kkju2y2_vuFSfI7Bw427zQfwOSGQnU71zcsr0" 
-    alt="Header Banner"
-    style="width:100%; max-height:280px; object-fit:cover; border-radius:12px;"
-  />
-</div>
-
-<div align="center" style="margin-top:-90px;">
-  <img 
     src="https://media.licdn.com/dms/image/v2/D4D03AQG3OZqdnUeVqA/profile-displayphoto-scale_200_200/B4DZni0l0EIcAg-/0/1760447064406?e=1769644800&v=beta&t=c3p7bIQgY5W3MTCtHbKsWQThwXeTKrJ4XVJyKB8BLxM"
     alt="Zech profile photo"
     width="160"
-    style="border-radius:50%; border:5px solid white; background:white;"
+    style="border-radius:50%;"
   />
-
   <h1 style="margin-bottom:0;">✨ Ezequiel Nascimento (Zech)</h1>
   <p style="margin-top:4px;">
     AI Engineer • Systems Architect • Tech Explorer
