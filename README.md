@@ -1,173 +1,78 @@
-<!-- ===================== HEADER ===================== -->
 <div align="center">
-  <img 
-    src="https://media.licdn.com/dms/image/v2/D4D03AQG3OZqdnUeVqA/profile-displayphoto-scale_200_200/B4DZni0l0EIcAg-/0/1760447064406?e=1769644800&v=beta&t=c3p7bIQgY5W3MTCtHbKsWQThwXeTKrJ4XVJyKB8BLxM"
-    alt="Zech profile photo"
-    width="160"
-    style="border-radius:50%;"
-  />
-  <h1 style="margin-bottom:0;">✨ Ezequiel Nascimento (Zech)</h1>
-  <p style="margin-top:4px;">
-    AI Engineer • Systems Architect • Tech Explorer
+  <h1>Ezequiel Nascimento</h1>
+  <p>Senior Systems Analyst | HR Tech | Enterprise Integrations | Automation</p>
+  <p>
+    <a href="https://www.linkedin.com/in/zechbirth">LinkedIn</a> •
+    <a href="https://github.com/zechbirth">GitHub</a>
   </p>
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Engineering-0A66C2?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cybersecurity-111827?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Complex%20Systems-7C3AED?style=for-the-badge&logo=ibm&logoColor=white"/>
-</p>
+---
+
+## About
+
+Senior Systems Analyst with experience in HR technology, enterprise systems integration, automation, and support for critical business processes.
+
+My work is centered on understanding operational complexity, structuring reliable technical solutions, and improving system communication across corporate environments. I operate across functional and technical layers, with a strong focus on analysis, integration, process consistency, and production reliability.
 
 ---
 
-## 🧭 About Me
-I’m a **Senior Systems Analyst & AI Engineer** focused on building **intelligent, secure and scalable systems** at the intersection of **Artificial Intelligence, Automation, Security and Ethics**.
+## Focus Areas
 
-I work translating **real-world complexity** into **robust computational systems**, combining enterprise-grade architecture with experimental AI research.
-
-> **Core belief:**  
-> Technology only matters when it **reduces complexity**, **amplifies human capability** and **creates real-world impact**.
-
----
-
-## 🧠 Areas of Focus
-- **Applied Artificial Intelligence** (LLMs, AI Agents, Automation)
-- **Neuro-Symbolic & Hybrid Systems**
-- **Cybersecurity & Ethical Hacking**
-- **Enterprise Systems (SAP, Integrations, Automation)**
-- **Emerging Computing Paradigms** (Quantum, Complex Systems)
+- HR systems and digital employee services
+- Enterprise integrations and interface analysis
+- Automation of operational and business processes
+- Technical investigation and root cause analysis
+- Data flow mapping and system dependency assessment
+- Support for internal platforms and critical services
 
 ---
 
-## 🎓 Background & Certifications
-| Domain | Institution | Focus |
-|------|------------|-------|
-| **AI Ethics & Systems** | MIT | AI Ethics, Computer Systems Engineering |
-| **Cybersecurity** | Stanford | Advanced Cybersecurity & Threat Modeling |
-| **Cloud & Automation** | Microsoft | Azure, AI, Power Platform |
+## Technical Scope
+
+### Enterprise Systems
+- SAP HR / SuccessFactors
+- Corporate platforms and internal service ecosystems
+- Cross-system integrations
+
+### Automation and Development
+- Power Platform
+- Python
+- JavaScript / TypeScript
+- Web-based internal solutions
+- API consumption and service integration
+
+### Analysis and Operations
+- Incident analysis
+- Interface validation
+- Process mapping
+- Technical documentation
+- Production support
+- Functional and technical troubleshooting
 
 ---
 
-## 🧰 Tech Stack
+## What I Usually Work On
 
-### Languages & Core
-- **Python** → AI, ML, Automation, Data
-- **TypeScript / JavaScript** → Full-stack & AI Interfaces
-- **Go** → High-performance services
-- **C++** → Low-level systems & algorithms
-- **ABAP** → Enterprise systems (SAP)
-
-### AI & Frameworks
-- TensorFlow • PyTorch • Pandas  
-- LLMs (OpenAI, local models)  
-- React • Node.js
-
-### Cloud, Infra & Security
-- Azure • Docker • Kubernetes  
-- Linux • Git  
-- Power Automate • System Integrations
-
-### Databases
-- PostgreSQL • MongoDB • SQL
+- System integrations involving sensitive business processes
+- HR and employee-facing digital services
+- Technical assessments for operational impact
+- Diagnosis of failures across multiple connected systems
+- Documentation to support decision-making
+- Translation between business need and technical implementation
 
 ---
 
-## 🔬 Currently Exploring
-- **AI Agents & Autonomous Systems**
-- **Neuro-Symbolic Reasoning**
-- **Security-aware AI Architectures**
-- **Quantum-inspired Algorithms**
-- **Rust for systems programming**
+## Professional Approach
+
+- Structured analysis before implementation
+- Clear identification of dependencies and impacts
+- Objective communication for technical and executive audiences
+- Focus on reliability, traceability, and operational continuity
 
 ---
 
-## 📚 Research & Reading Recommendations
-A curated list of **peer-reviewed papers, institutional research and foundational works** that influence my thinking and system design.
+## Profiles
 
-### 🧠 Artificial Intelligence & Hybrid Systems
-- **Neuro-Symbolic AI: The 3rd Wave** — Henry Kautz (AAAI)  
-  https://ojs.aaai.org/index.php/AAAI/article/view/17775
-
-- **Combining Neural Networks and Symbolic AI** — Garcez et al. (Springer)  
-  https://link.springer.com/article/10.1007/s10994-019-05834-6
-
-- **On the Opportunities and Risks of Foundation Models** — Stanford CRFM  
-  https://arxiv.org/abs/2108.07258
-
----
-
-### 🤖 AI Agents & Autonomous Systems
-- **Generative Agents: Interactive Simulacra of Human Behavior** — Stanford & Google  
-  https://arxiv.org/abs/2304.03442
-
-- **ReAct: Synergizing Reasoning and Acting in Language Models** — Yao et al.  
-  https://arxiv.org/abs/2210.03629
-
----
-
-### 🔐 Security, Privacy & Ethics
-- **Adversarial Examples in Machine Learning** — Ian Goodfellow et al.  
-  https://arxiv.org/abs/1412.6572
-
-- **Ethical and Social Risks of Harm from Language Models** — Weidinger et al. (DeepMind)  
-  https://arxiv.org/abs/2112.04359
-
-- **NIST AI Risk Management Framework**  
-  https://www.nist.gov/itl/ai-risk-management-framework
-
----
-
-### ⚙️ Complex & Distributed Systems
-- **A Philosophy of Software Design** — John Ousterhout (Stanford)  
-  https://web.stanford.edu/~ouster/cgi-bin/book.php
-
-- **Designing Data-Intensive Applications** — Martin Kleppmann  
-  https://dataintensive.net/
-
----
-
-### ⚛️ Quantum & Emerging Computing
-- **Quantum Machine Learning** — Biamonte et al. (Nature)  
-  https://www.nature.com/articles/nature23474
-
-- **IBM Quantum Learning Resources**  
-  https://quantum.ibm.com/learn
-
-> This list evolves continuously as research advances.
-
----
-
-## 🧪 Projects & Labs
-Some things I’m actively building or experimenting with:
-
-- **AI Core Lab**  
-  Experimental AI framework combining LLMs, voice interfaces and automation.
-
-- **Neuro-Symbolic Playground**  
-  Research experiments blending symbolic logic with neural models.
-
-- **Automation Hub**  
-  Collection of bots and services for enterprise and personal automation.
-
-- **Secure Systems Experiments**  
-  Prototypes focused on privacy, encryption and secure-by-design architectures.
-
-> Most projects are in **research / prototyping phase** — architecture-first, code follows.
-
----
-
-## 🤝 Connect
-| Platform | Link |
-|--------|------|
-| **LinkedIn** | https://www.linkedin.com/in/zechbirth |
-| **GitHub** | https://github.com/zechbirth |
-| **Instagram** | https://www.instagram.com/zechbirth |
-
----
-
-<p align="center">
-  <i>
-    Building technology that is intelligent, secure and human-centered.<br>
-    <b>// Technology for Impact</b>
-  </i>
-</p>
+- LinkedIn: <a href="https://www.linkedin.com/in/zechbirth">linkedin.com/in/zechbirth</a>
+- GitHub: <a href="https://github.com/zechbirth">github.com/zechbirth</a>
