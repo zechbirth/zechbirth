@@ -189,22 +189,6 @@ I value:
 
 ---
 
-## GitHub Overview
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zechbirth&show_icons=true&hide_border=true&theme=github_dark" alt="Ezequiel's GitHub statistics">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zechbirth&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages">
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zechbirth&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak">
-
-</div>
-
----
-
 <div align="center">
 
 ### Let’s connect
