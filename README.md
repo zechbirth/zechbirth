@@ -101,8 +101,8 @@ DISCOVER ──► MAP ──► DESIGN ──► SECURE ──► BUILD ──�
                │          │          │                       │
                │          │          │                       │
                └──── dependencies    └──── risk              │
-                                                              │
-                       ◄──────── feedback / telemetry ─────────┘
+                                                             │
+                     ◄──────── feedback / telemetry ─────────┘
 ```
 
 ---
