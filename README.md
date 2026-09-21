@@ -12,7 +12,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/NETWORK-LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/zechbirth)
 [![GitHub](https://img.shields.io/badge/SOURCE-GITHUB-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/zechbirth)
-[![We Must Act Now](https://img.shields.io/badge/PROTOCOL-RESPONSIBLE_AI-111827?style=for-the-badge)](https://www.wemustactnow.ai)
+[![Responsible AI](https://img.shields.io/badge/PROTOCOL-RESPONSIBLE_AI-111827?style=for-the-badge)](https://www.wemustactnow.ai)
 
 </div>
 
@@ -28,6 +28,7 @@ zech@github:~$ ./bootstrap
 [ OK ] automation................. ONLINE
 [ OK ] cybersecurity.............. ENFORCED
 [ OK ] responsible_ai............. ENABLED
+[ OK ] verified_credentials....... 08
 [ .. ] learning_loop.............. CONTINUOUS
 
 system ready.
@@ -63,7 +64,7 @@ I work in the layer where **business requirements become technical decisions**.
 
 Not only implementing systems, but understanding how they connect, where they fail, what they expose, how they scale and what happens when something changes.
 
-My work typically crosses:
+My work usually crosses:
 
 `business` → `architecture` → `integration` → `security` → `delivery` → `operations`
 
@@ -308,20 +309,242 @@ The direction is increasingly clear:
 
 ---
 
-## `09 / LEARNING.LOG`
+## `09 / VERIFIED.CREDENTIALS`
 
-```diff
-+ Machine Learning
-+ AI Product Management
-+ SAP Technology
-+ Software Design & Architecture
-+ Cybersecurity
-+ Technology Governance
-+ Statistics & Data Science
+```console
+zech@github:~$ credentials --verify --all
 
-> status: continuous
-> strategy: learn → build → break → understand → improve
+[ VERIFIED ] security............. 3 credentials
+[ VERIFIED ] architecture......... 1 credential
+[ VERIFIED ] artificial-intel..... 2 credentials
+[ VERIFIED ] enterprise........... 1 credential
+[ VERIFIED ] ethics............... 1 credential
+
+8 credentials found.
+verification endpoints available.
 ```
+
+### `SECURITY / CYBERSECURITY`
+
+<table>
+<tr>
+<td width="72%">
+
+**Security and Ethical Hacking Specialization**
+University of Colorado Boulder
+
+`ethical hacking` `security` `offensive security`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE)
+
+<sub>`MBWC3BLK5HWE`</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Cyber Security — Technology and Governance Specialization**
+University of London
+
+`cybersecurity` `governance` `information security`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK)
+
+<sub>`S5C3LO2DLGSK`</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Systems Security Certified Practitioner (SSCP)**
+Packt
+
+`systems security` `access control` `security operations`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG)
+
+<sub>`6K0PI6RM0JHG`</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### `ARCHITECTURE / ENTERPRISE SYSTEMS`
+
+<table>
+<tr>
+<td width="72%">
+
+**Software Design and Architecture**
+University of Alberta
+
+`software architecture` `REST APIs` `SOA` `design patterns`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO)
+
+<sub>`HJ5SN309LCAO`</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**SAP Technology Consultant Professional Certificate**
+SAP
+
+`SAP` `enterprise systems` `implementation`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ)
+
+<sub>`YUOP4VIHY6BJ`</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### `AI / MACHINE INTELLIGENCE`
+
+<table>
+<tr>
+<td width="72%">
+
+**Machine Learning Specialization**
+Stanford Online
+
+`machine learning` `predictive modeling` `neural networks`
+
+</td>
+<td align="right">
+
+`JUN 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD)
+
+<sub>`XZ95HNBJ8GCD`</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**AI Product Management Specialization**
+Duke University
+
+`AI products` `product strategy` `human-centered AI`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX)
+
+<sub>`NJ75BQTI6MZX`</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### `ETHICS / RESPONSIBLE TECHNOLOGY`
+
+<table>
+<tr>
+<td width="72%">
+
+**Computing, Ethics, and Society Specialization**
+University of Colorado Boulder
+
+`technology ethics` `society` `responsible computing`
+
+</td>
+<td align="right">
+
+`JUL 2026`
+
+[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L)
+
+<sub>`2DJ807QGY64L`</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+```text
+credential_chain/
+│
+├── SECURITY
+│   ├── Security & Ethical Hacking
+│   ├── Cyber Security & Governance
+│   └── Systems Security
+│
+├── ARCHITECTURE
+│   ├── Software Design & Architecture
+│   └── SAP Technology
+│
+├── INTELLIGENCE
+│   ├── Machine Learning
+│   └── AI Product Management
+│
+└── RESPONSIBILITY
+    └── Computing, Ethics & Society
+```
+
+<details>
+<summary><code>credentials --raw</code></summary>
+
+<br>
+
+| Credential                                                | Issuer                         | ID             | Verification                                                                                |
+| --------------------------------------------------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------------------------- |
+| Security and Ethical Hacking Specialization               | University of Colorado Boulder | `MBWC3BLK5HWE` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE)    |
+| Computing, Ethics, and Society Specialization             | University of Colorado Boulder | `2DJ807QGY64L` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L)    |
+| Systems Security Certified Practitioner (SSCP)            | Packt                          | `6K0PI6RM0JHG` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG)    |
+| Cyber Security — Technology and Governance Specialization | University of London           | `S5C3LO2DLGSK` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK)    |
+| AI Product Management Specialization                      | Duke University                | `NJ75BQTI6MZX` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX)    |
+| Software Design and Architecture                          | University of Alberta          | `HJ5SN309LCAO` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO)    |
+| SAP Technology Consultant Professional Certificate        | SAP                            | `YUOP4VIHY6BJ` | [Coursera](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ) |
+| Machine Learning Specialization                           | Stanford Online                | `XZ95HNBJ8GCD` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD)    |
+
+</details>
 
 ---
 
@@ -337,6 +560,34 @@ The direction is increasingly clear:
 07  measure what reaches production
 08  keep humans accountable for technology
 ```
+
+---
+
+## `11 / ENGINEERING.PHILOSOPHY`
+
+```text
+COMPLEXITY
+    ↓
+OBSERVABILITY
+    ↓
+UNDERSTANDING
+    ↓
+DECISION
+    ↓
+IMPLEMENTATION
+    ↓
+EVIDENCE
+```
+
+I believe technical decisions should be explainable.
+
+Architecture should make dependencies visible.
+
+Security should make trust explicit.
+
+Automation should eliminate repetition without eliminating accountability.
+
+AI should increase human capability without decreasing human responsibility.
 
 ---
 
@@ -361,17 +612,28 @@ And good artificial intelligence should increase human capability without decrea
 
 ---
 
+## `12 / SYSTEM.STATUS`
+
 ```console
 zech@github:~$ status
 
+identity ................... VERIFIED
 architecture ............... ACTIVE
+enterprise-systems ......... ACTIVE
 security ................... ACTIVE
 automation ................. ACTIVE
+machine-learning ........... ACTIVE
 responsible-ai ............. ACTIVE
+verified-credentials ....... 08
 curiosity .................. UNLIMITED
+
+trust-chain ................ VALID
+system-state ............... OPERATIONAL
 
 zech@github:~$ _
 ```
+
+---
 
 <div align="center">
 
