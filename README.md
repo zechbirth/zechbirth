@@ -4,15 +4,12 @@
 
 ### Ezequiel Nascimento
 
-`TECHNOLOGY CONSULTANT` · `SENIOR SYSTEMS ANALYST` · `RESPONSIBLE AI`
+`SENIOR SYSTEMS ANALYST` · `SOLUTION ARCHITECTURE` · `ENTERPRISE TECHNOLOGY`
 
-**enterprise systems / architecture / security / automation / intelligence**
+**enterprise systems / integrations / security-by-design / automation / responsible AI**
 
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/NETWORK-LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/zechbirth)
-[![GitHub](https://img.shields.io/badge/SOURCE-GITHUB-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/zechbirth)
-[![Responsible AI](https://img.shields.io/badge/PROTOCOL-RESPONSIBLE_AI-111827?style=for-the-badge)](https://www.wemustactnow.ai)
+[![LinkedIn](https://img.shields.io/badge/NETWORK-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zechbirth)
+[![GitHub](https://img.shields.io/badge/SOURCE-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zechbirth)
 
 </div>
 
@@ -21,17 +18,14 @@
 ```console
 zech@github:~$ ./bootstrap
 
-[ OK ] identity.................... EZEQUIEL NASCIMENTO
-[ OK ] enterprise_systems......... ONLINE
-[ OK ] solution_architecture...... ONLINE
-[ OK ] integrations............... ONLINE
-[ OK ] automation................. ONLINE
-[ OK ] cybersecurity.............. ENFORCED
-[ OK ] responsible_ai............. ENABLED
-[ OK ] verified_credentials....... 08
-[ .. ] learning_loop.............. CONTINUOUS
+[ PROFILE ] enterprise_systems ......... ACTIVE
+[ FOCUS   ] solution_architecture ...... ACTIVE
+[ FOCUS   ] systems_integration ........ ACTIVE
+[ FOCUS   ] security_by_design ......... ACTIVE
+[ FOCUS   ] automation ................. ACTIVE
+[ LEARNING] public_course_records ...... 08
 
-system ready.
+control plane initialized.
 ```
 
 ## `01 / SYSTEM.IDENTITY`
@@ -43,181 +37,133 @@ handle = "@zechbirth"
 
 [role]
 primary = "Senior Systems Analyst"
-mode = "Technology Consultant"
+practice = "Technology Consulting & Solution Design"
 
-[focus]
-architecture = true
-enterprise_systems = true
-integrations = true
-automation = true
-cybersecurity = true
-responsible_ai = true
-
-[objective]
+[mission]
 statement = """
-Transform complex business problems into
-secure, traceable and reliable digital systems.
+Turn complex business needs into secure, traceable,
+maintainable and operationally reliable systems.
 """
 ```
 
-I work in the layer where **business requirements become technical decisions**.
+I work where **business requirements become technical decisions** — connecting enterprise applications, integrations, identity, data flows and operational constraints.
 
-Not only implementing systems, but understanding how they connect, where they fail, what they expose, how they scale and what happens when something changes.
-
-My work usually crosses:
-
-`business` → `architecture` → `integration` → `security` → `delivery` → `operations`
+My approach spans **discovery, architecture, implementation, integration, validation and operations**, with security, privacy and governance embedded throughout the lifecycle.
 
 ---
 
 ## `02 / EXECUTION.PIPELINE`
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Business Problem"] --> B["Discovery"]
-    B --> C["System Mapping"]
+    B --> C["System & Data Mapping"]
     C --> D["Solution Design"]
-    D --> E["Risk Analysis"]
-    E --> F["Integration"]
-    F --> G["Validation"]
-    G --> H["Production"]
+    D --> E["Risk & Threat Analysis"]
+    E --> F["Implementation"]
+    F --> G["Integration"]
+    G --> H["Validation"]
+    H --> I{"Release Ready?"}
+    I -->|Yes| J["Production & Operations"]
+    I -->|No: remediate| D
 
-    S["Security"] -. guardrails .-> C
-    S -. guardrails .-> D
-    S -. guardrails .-> E
-    S -. guardrails .-> F
-    S -. guardrails .-> G
+    E -.->|Revise design| D
+    J -->|Telemetry| K["Observability"]
+    K -.->|Findings & feedback| B
 
-    O["Observability"] -. feedback .-> H
-    H -. telemetry .-> B
+    S["Security · Privacy · Governance"] -.->|Cross-cutting controls| B
+    S -.-> D
+    S -.-> F
+    S -.-> H
+    S -.-> J
 ```
 
-```text
-INPUT
-  business requirement
-       │
-       ▼
-DISCOVER ──► MAP ──► DESIGN ──► SECURE ──► BUILD ──► VALIDATE ──► OPERATE
-               │          │          │                       │
-               │          │          │                       │
-               └──── dependencies    └──── risk              │
-                                                             │
-                     ◄──────── feedback / telemetry ─────────┘
-```
+**How to read this model**
+
+- **Security, privacy and governance are cross-cutting controls**, not a one-time approval after development. They apply to every phase, even where an individual arrow is omitted for readability.
+- **Risk analysis is iterative.** An unacceptable risk triggers redesign; validation or release-readiness failures require remediation before deployment.
+- **Production is not the finish line.** Runtime telemetry feeds observability, incident analysis and the next discovery cycle.
+- **Release readiness** covers evidence, change approval, deployment planning, rollback and operational ownership as appropriate to the environment.
 
 ---
 
-## `03 / CAPABILITY.MATRIX`
+## `03 / PROBLEM.SPACES`
 
-| DOMAIN         | SYSTEM CAPABILITY                                              |
-| -------------- | -------------------------------------------------------------- |
-| `ARCHITECTURE` | solution design · dependency mapping · technical decisions     |
-| `ENTERPRISE`   | SAP · HR technology · corporate platforms · legacy ecosystems  |
-| `INTEGRATION`  | REST APIs · interfaces · orchestration · data exchange         |
-| `SECURITY`     | identity · access · vulnerability analysis · secure design     |
-| `AUTOMATION`   | Python · Power Platform · workflow automation · internal tools |
-| `DATA`         | SQL · data flows · governance · operational analytics          |
-| `AI`           | machine learning · AI products · agents · Responsible AI       |
-| `OPERATIONS`   | incident analysis · root cause · continuity · monitoring       |
+Representative areas of my work, described without exposing proprietary systems, data or implementation details:
+
+| CONTEXT | ENGINEERING CONCERNS | TYPICAL CONTRIBUTIONS |
+| --- | --- | --- |
+| **Enterprise HR ecosystems** | SAP, corporate portals, legacy interfaces and workflow dependencies | System mapping, change-impact analysis, interface troubleshooting and solution design |
+| **APIs & connected workflows** | Authentication, authorization, data contracts, orchestration and partial failures | Integration analysis, error handling, traceability and validation strategies |
+| **Secure operations** | Data exposure, access boundaries, vulnerabilities and continuity | Security reviews, log analysis, incident investigation and operational readiness |
+
+The emphasis is on **how systems behave across boundaries**: who can access them, what they depend on, how they fail, and how teams can safely change them.
 
 ---
 
-## `04 / ARCHITECTURE.MODE`
+## `04 / CAPABILITY.REGISTRY`
 
-```yaml
-solution:
-  start_with:
-    - business context
-    - existing architecture
-    - dependencies
-    - data flows
-    - trust boundaries
+| DOMAIN | CAPABILITIES |
+| --- | --- |
+| `SOLUTION ARCHITECTURE` | solution design · dependency mapping · technical decisions · trade-off analysis |
+| `ENTERPRISE SYSTEMS` | SAP · HR technology · corporate platforms · legacy ecosystems |
+| `INTEGRATION` | REST APIs · interfaces · orchestration · data exchange · failure handling |
+| `SECURITY` | identity and access · secure design · vulnerability analysis · data protection |
+| `AUTOMATION` | Python · Power Platform · workflow automation · internal tools |
+| `DATA & OPERATIONS` | SQL · data flows · auditability · monitoring · root-cause analysis |
+| `AI & CONTINUOUS LEARNING` | machine learning · AI product management · AI agents · Responsible AI |
 
-  validate:
-    - security
-    - identity
-    - scalability
-    - integration contracts
-    - failure scenarios
-    - operational impact
-
-  deliver:
-    - architecture
-    - implementation
-    - evidence
-    - documentation
-    - observability
-
-  never_assume:
-    - "the integration will always be available"
-    - "the user input is trustworthy"
-    - "the dependency will never change"
-    - "production behaves like development"
-```
+*These are domains of work and study, not claims of certification or equal proficiency in every tool.*
 
 ---
 
 ## `05 / STACK.REGISTRY`
 
 ```text
-enterprise/
-├── SAP
-├── HR Technology
-├── Microsoft 365
-├── SharePoint
-└── Power Platform
+platforms-and-enterprise/
+├── SAP & HR technology
+├── Microsoft 365 / SharePoint
+├── Power Platform
+└── Microsoft Azure
+    ├── App Services
+    └── Key Vault
 
-cloud/
-├── Microsoft Azure
-├── App Services
-├── Key Vault
-├── Identity
-└── Cloud Integrations
-
-engineering/
+engineering-and-data/
 ├── Python
-├── JavaScript
-├── TypeScript
+├── JavaScript / TypeScript
 ├── .NET
-├── REST APIs
-└── SQL
+├── SQL
+└── REST APIs
 
-security/
-├── Identity & Access
-├── Application Security
-├── Secure Architecture
-├── Vulnerability Analysis
-└── Governance
+architecture-and-operations/
+├── Solution design & dependency mapping
+├── Identity, authorization & trust boundaries
+├── Secure integration & data flows
+├── Logging, telemetry & incident analysis
+└── Governance, change impact & continuity
 
-intelligence/
+learning-and-exploration/
 ├── Machine Learning
-├── AI Products
-├── AI Agents
-├── Automation
+├── AI product design
+├── AI agents
 └── Responsible AI
 ```
 
 <details>
 <summary><code>expand /stack/visual.registry</code></summary>
 
-<br>
-
 <div align="center">
 
-![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square\&logo=sap\&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
-![Power Platform](https://img.shields.io/badge/Power_Platform-742774?style=flat-square\&logo=powerapps\&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-038387?style=flat-square\&logo=microsoftsharepoint\&logoColor=white)
+![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Power Platform](https://img.shields.io/badge/Power_Platform-742774?style=flat-square&logo=powerapps&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-038387?style=flat-square&logo=microsoftsharepoint&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=111111)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
-
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-111827?style=flat-square\&logo=hackthebox\&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
-![Responsible AI](https://img.shields.io/badge/Responsible_AI-4F46E5?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square)
 
 </div>
 
@@ -225,412 +171,141 @@ intelligence/
 
 ---
 
-## `06 / FAILURE.IS.A.FEATURE`
+## `06 / ARCHITECTURE.MODE`
 
-I care about the part of architecture diagrams usually omitted:
+```yaml
+solution:
+  discover:
+    - business context and expected outcomes
+    - existing architecture and ownership
+    - system dependencies and data classification
+    - trust boundaries and privacy requirements
+
+  design:
+    - solution options and technical trade-offs
+    - identity, authorization and API contracts
+    - data flows, failure modes and recovery paths
+    - scalability, availability and performance needs
+    - logging and observability requirements
+
+  validate:
+    - security and threat-related risks
+    - functional and integration behavior
+    - data handling and auditability
+    - operational impact and test evidence
+
+  release:
+    - change approval and deployment readiness
+    - rollback and recovery approach
+    - documentation and operational ownership
+
+  operate:
+    - telemetry, alerts and investigation
+    - incident analysis and root-cause learning
+    - feedback into discovery and design
+
+  never_assume:
+    - "an integration is always available"
+    - "user input is trustworthy"
+    - "a dependency will never change"
+    - "production behaves like development"
+```
+
+---
+
+## `07 / DESIGN.FOR.FAILURE`
 
 ```text
 What if the API is unavailable?
-
-What if the token leaks?
-
-What if the employee no longer exists?
-
-What if the source system changes?
-
-What if authorization fails?
-
-What if the payload is malformed?
-
-What if the integration partially succeeds?
-
-What happens at 03:00 when nobody is watching?
+What if a token or secret is exposed?
+What if a user's access is revoked mid-process?
+What if the source system changes unexpectedly?
+What if an integration partially succeeds?
+What if a payload is malformed or duplicated?
+How is the event traced, retried or safely reversed?
+Who is alerted when something fails outside business hours?
 ```
 
-Because a system is not defined only by its happy path.
-
-**Reliability is architecture.
-Security is architecture.
-Observability is architecture.**
+**Reliability, security and observability are architecture concerns — not afterthoughts.**
 
 ---
 
-## `07 / SECURITY.MODEL`
-
-```python
-def ship(solution):
-    understand(solution.context)
-    map(solution.dependencies)
-    identify(solution.trust_boundaries)
-
-    validate(
-        authentication=True,
-        authorization=True,
-        data_exposure=True,
-        failure_modes=True,
-        auditability=True
-    )
-
-    deploy(solution)
-
-    while solution.is_running:
-        observe()
-        investigate()
-        improve()
-```
-
----
-
-## `08 / CURRENT.VECTOR`
-
-```text
-                          ┌──────────────────────┐
-                          │  ENTERPRISE SYSTEMS  │
-                          └──────────┬───────────┘
-                                     │
-                    ┌────────────────┼────────────────┐
-                    │                │                │
-                    ▼                ▼                ▼
-             ARCHITECTURE       CYBERSECURITY      AUTOMATION
-                    │                │                │
-                    └───────────┬────┴────┬───────────┘
-                                │         │
-                                ▼         ▼
-                              DATA       AI
-                                │         │
-                                └────┬────┘
-                                     ▼
-                             DIGITAL PRODUCTS
-```
-
-The direction is increasingly clear:
-
-**systems that are intelligent, integrated and automated — without sacrificing security, governance or human responsibility.**
-
----
-
-## `09 / VERIFIED.CREDENTIALS`
+## `08 / LEARNING.CREDENTIALS`
 
 ```console
-zech@github:~$ credentials --verify --all
+zech@github:~$ learning --list
 
-[ VERIFIED ] security............. 3 credentials
-[ VERIFIED ] architecture......... 1 credential
-[ VERIFIED ] artificial-intel..... 2 credentials
-[ VERIFIED ] enterprise........... 1 credential
-[ VERIFIED ] ethics............... 1 credential
+security ..................... 03 records
+architecture ................ 01 record
+enterprise .................. 01 record
+ai-and-machine-learning ..... 02 records
+ethics ...................... 01 record
 
-8 credentials found.
-verification endpoints available.
+08 course / program records
 ```
 
-### `SECURITY / CYBERSECURITY`
-
-<table>
-<tr>
-<td width="72%">
-
-**Security and Ethical Hacking Specialization**
-University of Colorado Boulder
-
-`ethical hacking` `security` `offensive security`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE)
-
-<sub>`MBWC3BLK5HWE`</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**Cyber Security — Technology and Governance Specialization**
-University of London
-
-`cybersecurity` `governance` `information security`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK)
-
-<sub>`S5C3LO2DLGSK`</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**Systems Security Certified Practitioner (SSCP)**
-Packt
-
-`systems security` `access control` `security operations`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG)
-
-<sub>`6K0PI6RM0JHG`</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### `ARCHITECTURE / ENTERPRISE SYSTEMS`
-
-<table>
-<tr>
-<td width="72%">
-
-**Software Design and Architecture**
-University of Alberta
-
-`software architecture` `REST APIs` `SOA` `design patterns`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO)
-
-<sub>`HJ5SN309LCAO`</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**SAP Technology Consultant Professional Certificate**
-SAP
-
-`SAP` `enterprise systems` `implementation`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ)
-
-<sub>`YUOP4VIHY6BJ`</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### `AI / MACHINE INTELLIGENCE`
-
-<table>
-<tr>
-<td width="72%">
-
-**Machine Learning Specialization**
-Stanford Online
-
-`machine learning` `predictive modeling` `neural networks`
-
-</td>
-<td align="right">
-
-`JUN 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD)
-
-<sub>`XZ95HNBJ8GCD`</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**AI Product Management Specialization**
-Duke University
-
-`AI products` `product strategy` `human-centered AI`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX)
-
-<sub>`NJ75BQTI6MZX`</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### `ETHICS / RESPONSIBLE TECHNOLOGY`
-
-<table>
-<tr>
-<td width="72%">
-
-**Computing, Ethics, and Society Specialization**
-University of Colorado Boulder
-
-`technology ethics` `society` `responsible computing`
-
-</td>
-<td align="right">
-
-`JUL 2026`
-
-[`VERIFY ↗`](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L)
-
-<sub>`2DJ807QGY64L`</sub>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-```text
-credential_chain/
-│
-├── SECURITY
-│   ├── Security & Ethical Hacking
-│   ├── Cyber Security & Governance
-│   └── Systems Security
-│
-├── ARCHITECTURE
-│   ├── Software Design & Architecture
-│   └── SAP Technology
-│
-├── INTELLIGENCE
-│   ├── Machine Learning
-│   └── AI Product Management
-│
-└── RESPONSIBILITY
-    └── Computing, Ethics & Society
-```
+The entries below link to **course or program completion records**. Course certificates and professional-body certifications are different credentials. In particular, the Packt SSCP preparation specialization **is not an ISC2 SSCP certification**.
+
+| DOMAIN | COURSE / PROGRAM | PROVIDER | COMPLETED | RECORD |
+| --- | --- | --- | --- | --- |
+| `SECURITY` | **Security and Ethical Hacking Specialization** | University of Colorado Boulder | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE) |
+| `SECURITY` | **Cyber Security — Technology and Governance Specialization** | University of London | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK) |
+| `SECURITY` | **Systems Security Certified Practitioner (SSCP) — preparation specialization** | Packt | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG) |
+| `ARCHITECTURE` | **Software Design and Architecture** | University of Alberta | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO) |
+| `ENTERPRISE` | **SAP Technology Consultant Professional Certificate** | SAP | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ) |
+| `AI / ML` | **Machine Learning Specialization** | Stanford Online / DeepLearning.AI | Jun 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD) |
+| `AI / ML` | **AI Product Management Specialization** | Duke University | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX) |
+| `ETHICS` | **Computing, Ethics, and Society Specialization** | University of Colorado Boulder | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L) |
 
 <details>
-<summary><code>credentials --raw</code></summary>
+<summary><code>expand /credentials/record.ids</code></summary>
 
-<br>
-
-| Credential                                                | Issuer                         | ID             | Verification                                                                                |
-| --------------------------------------------------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------------------------- |
-| Security and Ethical Hacking Specialization               | University of Colorado Boulder | `MBWC3BLK5HWE` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE)    |
-| Computing, Ethics, and Society Specialization             | University of Colorado Boulder | `2DJ807QGY64L` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L)    |
-| Systems Security Certified Practitioner (SSCP)            | Packt                          | `6K0PI6RM0JHG` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG)    |
-| Cyber Security — Technology and Governance Specialization | University of London           | `S5C3LO2DLGSK` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK)    |
-| AI Product Management Specialization                      | Duke University                | `NJ75BQTI6MZX` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX)    |
-| Software Design and Architecture                          | University of Alberta          | `HJ5SN309LCAO` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO)    |
-| SAP Technology Consultant Professional Certificate        | SAP                            | `YUOP4VIHY6BJ` | [Coursera](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ) |
-| Machine Learning Specialization                           | Stanford Online                | `XZ95HNBJ8GCD` | [Coursera](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD)    |
+```text
+MBWC3BLK5HWE   Security and Ethical Hacking
+S5C3LO2DLGSK   Cyber Security — Technology and Governance
+6K0PI6RM0JHG   SSCP preparation specialization (Packt)
+HJ5SN309LCAO   Software Design and Architecture
+YUOP4VIHY6BJ   SAP Technology Consultant
+XZ95HNBJ8GCD   Machine Learning
+NJ75BQTI6MZX   AI Product Management
+2DJ807QGY64L   Computing, Ethics, and Society
+```
 
 </details>
 
 ---
 
-## `10 / OPERATING.PRINCIPLES`
+## `09 / OPERATING.PRINCIPLES`
 
 ```text
 01  understand before implementing
 02  map dependencies before changing
-03  reduce implicit trust
-04  design for failure
-05  make decisions traceable
-06  automate repetitive work
-07  measure what reaches production
-08  keep humans accountable for technology
+03  make trust boundaries explicit
+04  assess risks and design for failure
+05  validate decisions with evidence
+06  automate repetitive work responsibly
+07  instrument and learn from production
+08  keep people accountable for technology
 ```
 
----
-
-## `11 / ENGINEERING.PHILOSOPHY`
-
-```text
-COMPLEXITY
-    ↓
-OBSERVABILITY
-    ↓
-UNDERSTANDING
-    ↓
-DECISION
-    ↓
-IMPLEMENTATION
-    ↓
-EVIDENCE
-```
-
-I believe technical decisions should be explainable.
-
-Architecture should make dependencies visible.
-
-Security should make trust explicit.
-
-Automation should eliminate repetition without eliminating accountability.
-
-AI should increase human capability without decreasing human responsibility.
+Good architecture makes dependencies visible. Good security makes trust explicit. Good operations turn failures into evidence for improvement. And responsible AI should increase human capability without reducing human accountability.
 
 ---
 
-<details>
-<summary><code>cat /etc/zech/manifesto</code></summary>
-
-<br>
-
-Technology should not become more complex simply because the problem is complex.
-
-Good systems make complexity **observable**.
-
-Good architecture makes decisions **understandable**.
-
-Good security makes trust **explicit**.
-
-Good automation removes repetition without removing **accountability**.
-
-And good artificial intelligence should increase human capability without decreasing human responsibility.
-
-</details>
-
----
-
-## `12 / SYSTEM.STATUS`
+## `10 / SYSTEM.STATUS`
 
 ```console
-zech@github:~$ status
+zech@github:~$ status --profile
 
-identity ................... VERIFIED
-architecture ............... ACTIVE
-enterprise-systems ......... ACTIVE
-security ................... ACTIVE
-automation ................. ACTIVE
-machine-learning ........... ACTIVE
-responsible-ai ............. ACTIVE
-verified-credentials ....... 08
-curiosity .................. UNLIMITED
+enterprise_systems .......... PRACTICE
+solution_architecture ....... PRACTICE
+integrations ................ PRACTICE
+security_by_design .......... PRACTICE
+automation .................. PRACTICE
+ai_and_responsible_tech ..... LEARNING + PRACTICE
+course_records .............. 08 PUBLIC LINKS
 
-trust-chain ................ VALID
-system-state ............... OPERATIONAL
-
-zech@github:~$ _
+operating_mode .............. CONTINUOUS IMPROVEMENT
 ```
 
 ---
@@ -639,16 +314,12 @@ zech@github:~$ _
 
 ### `ESTABLISH CONNECTION`
 
-[LinkedIn](https://www.linkedin.com/in/zechbirth)
-·
-[GitHub](https://github.com/zechbirth)
-·
-[We Must Act Now](https://www.wemustactnow.ai)
+[LinkedIn](https://www.linkedin.com/in/zechbirth) · [GitHub](https://github.com/zechbirth)
 
-<br><br>
+<sub>Further reading on responsible AI: <a href="https://www.wemustactnow.ai">We Must Act Now</a> (external initiative; not an affiliation claim).</sub>
 
-<sub>
-BUILD SYSTEMS THAT SURVIVE CONTACT WITH REALITY.
-</sub>
+<br>
+
+<sub>BUILD SYSTEMS THAT SURVIVE CONTACT WITH REALITY.</sub>
 
 </div>
