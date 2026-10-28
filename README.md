@@ -316,7 +316,7 @@ operating_mode .............. CONTINUOUS IMPROVEMENT
 
 [LinkedIn](https://www.linkedin.com/in/zechbirth) · [GitHub](https://github.com/zechbirth)
 
-<sub>Further reading on responsible AI: <a href="https://www.wemustactnow.ai">We Must Act Now</a> (external initiative; not an affiliation claim).</sub>
+<sub>Further reading on responsible AI: <a href="https://www.wemustactnow.ai">We Must Act Now</a> .</sub>
 
 <br>
 
