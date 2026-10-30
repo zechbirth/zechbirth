@@ -1,325 +1,103 @@
 <div align="center">
 
-# `ZECH://CONTROL-PLANE`
+<h1><code>ZECH://CONTROL-PLANE</code></h1>
 
-### Ezequiel Nascimento
+<strong>Ezequiel Nascimento</strong><br>
+Senior Systems Analyst · Enterprise Systems · Solution Design
 
-`SENIOR SYSTEMS ANALYST` · `SOLUTION ARCHITECTURE` · `ENTERPRISE TECHNOLOGY`
+<p>
+  <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-selected-1F2937?style=for-the-badge"></a>
+  <a href="./README.pt-BR.md"><img alt="Português" src="https://img.shields.io/badge/Portugu%C3%AAs-ler%20em%20PT--BR-0A66C2?style=for-the-badge"></a>
+</p>
 
-**enterprise systems / integrations / security-by-design / automation / responsible AI**
-
-[![LinkedIn](https://img.shields.io/badge/NETWORK-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zechbirth)
-[![GitHub](https://img.shields.io/badge/SOURCE-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zechbirth)
+<a href="https://www.linkedin.com/in/zechbirth"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="https://github.com/zechbirth"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-zechbirth-181717?style=flat-square&logo=github&logoColor=white"></a>
 
 </div>
 
 ---
 
 ```console
-zech@github:~$ ./bootstrap
+zech@github:~$ whoami
 
-[ PROFILE ] enterprise_systems ......... ACTIVE
-[ FOCUS   ] solution_architecture ...... ACTIVE
-[ FOCUS   ] systems_integration ........ ACTIVE
-[ FOCUS   ] security_by_design ......... ACTIVE
-[ FOCUS   ] automation ................. ACTIVE
-[ LEARNING] public_course_records ...... 08
+Senior Systems Analyst
+SAP HCM · HR platforms · integrations · solution design
 
-control plane initialized.
+Current direction: secure architecture and applied AI
 ```
 
-## `01 / SYSTEM.IDENTITY`
+I work at the intersection of **business processes and enterprise technology**. My day-to-day involves understanding how applications depend on one another, translating requirements into technical decisions, investigating integration failures, and making changes safer to deploy and operate.
 
-```toml
-[operator]
-name = "Ezequiel Nascimento"
-handle = "@zechbirth"
+My strongest context is **HR technology**: SAP HCM, corporate portals, middleware, APIs, and the operational realities of systems that cannot simply stop working.
 
-[role]
-primary = "Senior Systems Analyst"
-practice = "Technology Consulting & Solution Design"
+## `01 / IN.PRACTICE`
 
-[mission]
-statement = """
-Turn complex business needs into secure, traceable,
-maintainable and operationally reliable systems.
-"""
-```
+### Enterprise HR systems
 
-I work where **business requirements become technical decisions** — connecting enterprise applications, integrations, identity, data flows and operational constraints.
+A change in an HR portal rarely stays inside that portal. It can affect SAP HCM, middleware, downstream consumers, permissions, and data consistency.
 
-My approach spans **discovery, architecture, implementation, integration, validation and operations**, with security, privacy and governance embedded throughout the lifecycle.
+I map those dependencies, investigate interface behavior, assess change impact, and work through validation across integrated systems.
 
----
+### Identity and access
 
-## `02 / EXECUTION.PIPELINE`
+Signing in and being authorized to perform an action are different problems. I work on designs that connect **Microsoft Entra ID**, application sessions, and business-specific access rules without treating authentication as a substitute for authorization.
 
-```mermaid
-flowchart TB
-    A["Business Problem"] --> B["Discovery"]
-    B --> C["System & Data Mapping"]
-    C --> D["Solution Design"]
-    D --> E["Risk & Threat Analysis"]
-    E --> F["Implementation"]
-    F --> G["Integration"]
-    G --> H["Validation"]
-    H --> I{"Release Ready?"}
-    I -->|Yes| J["Production & Operations"]
-    I -->|No: remediate| D
+### Integration and production troubleshooting
 
-    E -.->|Revise design| D
-    J -->|Telemetry| K["Observability"]
-    K -.->|Findings & feedback| B
+When a workflow fails, the error visible to the user is often not where the problem started. I follow requests across APIs, logs, data contracts, middleware, and backend systems to understand what failed, what was affected, and how to recover safely.
 
-    S["Security · Privacy · Governance"] -.->|Cross-cutting controls| B
-    S -.-> D
-    S -.-> F
-    S -.-> H
-    S -.-> J
-```
+## `02 / TECH.CONTEXT`
 
-**How to read this model**
-
-- **Security, privacy and governance are cross-cutting controls**, not a one-time approval after development. They apply to every phase, even where an individual arrow is omitted for readability.
-- **Risk analysis is iterative.** An unacceptable risk triggers redesign; validation or release-readiness failures require remediation before deployment.
-- **Production is not the finish line.** Runtime telemetry feeds observability, incident analysis and the next discovery cycle.
-- **Release readiness** covers evidence, change approval, deployment planning, rollback and operational ownership as appropriate to the environment.
-
----
-
-## `03 / PROBLEM.SPACES`
-
-Representative areas of my work, described without exposing proprietary systems, data or implementation details:
-
-| CONTEXT | ENGINEERING CONCERNS | TYPICAL CONTRIBUTIONS |
-| --- | --- | --- |
-| **Enterprise HR ecosystems** | SAP, corporate portals, legacy interfaces and workflow dependencies | System mapping, change-impact analysis, interface troubleshooting and solution design |
-| **APIs & connected workflows** | Authentication, authorization, data contracts, orchestration and partial failures | Integration analysis, error handling, traceability and validation strategies |
-| **Secure operations** | Data exposure, access boundaries, vulnerabilities and continuity | Security reviews, log analysis, incident investigation and operational readiness |
-
-The emphasis is on **how systems behave across boundaries**: who can access them, what they depend on, how they fail, and how teams can safely change them.
-
----
-
-## `04 / CAPABILITY.REGISTRY`
-
-| DOMAIN | CAPABILITIES |
+| Area | Technologies and environments |
 | --- | --- |
-| `SOLUTION ARCHITECTURE` | solution design · dependency mapping · technical decisions · trade-off analysis |
-| `ENTERPRISE SYSTEMS` | SAP · HR technology · corporate platforms · legacy ecosystems |
-| `INTEGRATION` | REST APIs · interfaces · orchestration · data exchange · failure handling |
-| `SECURITY` | identity and access · secure design · vulnerability analysis · data protection |
-| `AUTOMATION` | Python · Power Platform · workflow automation · internal tools |
-| `DATA & OPERATIONS` | SQL · data flows · auditability · monitoring · root-cause analysis |
-| `AI & CONTINUOUS LEARNING` | machine learning · AI product management · AI agents · Responsible AI |
+| **Enterprise platforms** | SAP HCM (ECC), SAP PI/XI, HR portals, ServiceNow |
+| **Integration** | REST APIs, authentication flows, middleware, payload validation |
+| **Cloud & identity** | Microsoft Azure (App Service, Key Vault), Microsoft Entra ID |
+| **Engineering & data** | SQL, Python, C#/.NET, JavaScript/TypeScript |
+| **Automation & collaboration** | Power Platform, Microsoft 365, SharePoint |
+| **Operations & security** | Logs, audit trails, access control, incident analysis, change impact |
 
-*These are domains of work and study, not claims of certification or equal proficiency in every tool.*
+These are technologies I encounter through system analysis, delivery, integration, automation, and troubleshooting—not a claim of identical depth in every item.
 
----
-
-## `05 / STACK.REGISTRY`
+## `03 / HOW.I.WORK`
 
 ```text
-platforms-and-enterprise/
-├── SAP & HR technology
-├── Microsoft 365 / SharePoint
-├── Power Platform
-└── Microsoft Azure
-    ├── App Services
-    └── Key Vault
-
-engineering-and-data/
-├── Python
-├── JavaScript / TypeScript
-├── .NET
-├── SQL
-└── REST APIs
-
-architecture-and-operations/
-├── Solution design & dependency mapping
-├── Identity, authorization & trust boundaries
-├── Secure integration & data flows
-├── Logging, telemetry & incident analysis
-└── Governance, change impact & continuity
-
-learning-and-exploration/
-├── Machine Learning
-├── AI product design
-├── AI agents
-└── Responsible AI
+01  Understand the business process and the actual system behavior.
+02  Trace dependencies before proposing a change.
+03  Separate identity, permissions, data movement, and failure scenarios.
+04  Validate with evidence: logs, tests, contracts, and observed results.
+05  Plan for deployment, rollback, and support—not just implementation.
 ```
 
-<details>
-<summary><code>expand /stack/visual.registry</code></summary>
+I am especially interested in solutions that remain understandable after the initial delivery: clear ownership, observable failures, explicit access boundaries, and decisions that can be explained later.
 
-<div align="center">
+## `04 / CURRENT.DIRECTION`
 
-![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Power Platform](https://img.shields.io/badge/Power_Platform-742774?style=flat-square&logo=powerapps&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-038387?style=flat-square&logo=microsoftsharepoint&logoColor=white)
+- **Solution architecture:** system boundaries, integration patterns, technical trade-offs, and sustainable application design.
+- **Application security:** identity, authorization, data protection, and investigation of security-relevant behavior.
+- **Applied AI:** identifying where AI can solve a real operational problem, with appropriate controls and human accountability.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square)
+## `05 / LEARNING.RECORDS`
 
-</div>
+Courses and programs completed in 2026, with links to their records. **Course completion is not the same as holding a professional certification**; the SSCP item below is exam preparation, not the ISC2 SSCP credential.
 
-</details>
-
----
-
-## `06 / ARCHITECTURE.MODE`
-
-```yaml
-solution:
-  discover:
-    - business context and expected outcomes
-    - existing architecture and ownership
-    - system dependencies and data classification
-    - trust boundaries and privacy requirements
-
-  design:
-    - solution options and technical trade-offs
-    - identity, authorization and API contracts
-    - data flows, failure modes and recovery paths
-    - scalability, availability and performance needs
-    - logging and observability requirements
-
-  validate:
-    - security and threat-related risks
-    - functional and integration behavior
-    - data handling and auditability
-    - operational impact and test evidence
-
-  release:
-    - change approval and deployment readiness
-    - rollback and recovery approach
-    - documentation and operational ownership
-
-  operate:
-    - telemetry, alerts and investigation
-    - incident analysis and root-cause learning
-    - feedback into discovery and design
-
-  never_assume:
-    - "an integration is always available"
-    - "user input is trustworthy"
-    - "a dependency will never change"
-    - "production behaves like development"
-```
-
----
-
-## `07 / DESIGN.FOR.FAILURE`
-
-```text
-What if the API is unavailable?
-What if a token or secret is exposed?
-What if a user's access is revoked mid-process?
-What if the source system changes unexpectedly?
-What if an integration partially succeeds?
-What if a payload is malformed or duplicated?
-How is the event traced, retried or safely reversed?
-Who is alerted when something fails outside business hours?
-```
-
-**Reliability, security and observability are architecture concerns — not afterthoughts.**
-
----
-
-## `08 / LEARNING.CREDENTIALS`
-
-```console
-zech@github:~$ learning --list
-
-security ..................... 03 records
-architecture ................ 01 record
-enterprise .................. 01 record
-ai-and-machine-learning ..... 02 records
-ethics ...................... 01 record
-
-08 course / program records
-```
-
-The entries below link to **course or program completion records**. Course certificates and professional-body certifications are different credentials. In particular, the Packt SSCP preparation specialization **is not an ISC2 SSCP certification**.
-
-| DOMAIN | COURSE / PROGRAM | PROVIDER | COMPLETED | RECORD |
-| --- | --- | --- | --- | --- |
-| `SECURITY` | **Security and Ethical Hacking Specialization** | University of Colorado Boulder | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE) |
-| `SECURITY` | **Cyber Security — Technology and Governance Specialization** | University of London | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK) |
-| `SECURITY` | **Systems Security Certified Practitioner (SSCP) — preparation specialization** | Packt | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG) |
-| `ARCHITECTURE` | **Software Design and Architecture** | University of Alberta | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO) |
-| `ENTERPRISE` | **SAP Technology Consultant Professional Certificate** | SAP | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ) |
-| `AI / ML` | **Machine Learning Specialization** | Stanford Online / DeepLearning.AI | Jun 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD) |
-| `AI / ML` | **AI Product Management Specialization** | Duke University | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX) |
-| `ETHICS` | **Computing, Ethics, and Society Specialization** | University of Colorado Boulder | Jul 2026 | [View](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L) |
-
-<details>
-<summary><code>expand /credentials/record.ids</code></summary>
-
-```text
-MBWC3BLK5HWE   Security and Ethical Hacking
-S5C3LO2DLGSK   Cyber Security — Technology and Governance
-6K0PI6RM0JHG   SSCP preparation specialization (Packt)
-HJ5SN309LCAO   Software Design and Architecture
-YUOP4VIHY6BJ   SAP Technology Consultant
-XZ95HNBJ8GCD   Machine Learning
-NJ75BQTI6MZX   AI Product Management
-2DJ807QGY64L   Computing, Ethics, and Society
-```
-
-</details>
-
----
-
-## `09 / OPERATING.PRINCIPLES`
-
-```text
-01  understand before implementing
-02  map dependencies before changing
-03  make trust boundaries explicit
-04  assess risks and design for failure
-05  validate decisions with evidence
-06  automate repetitive work responsibly
-07  instrument and learn from production
-08  keep people accountable for technology
-```
-
-Good architecture makes dependencies visible. Good security makes trust explicit. Good operations turn failures into evidence for improvement. And responsible AI should increase human capability without reducing human accountability.
-
----
-
-## `10 / SYSTEM.STATUS`
-
-```console
-zech@github:~$ status --profile
-
-enterprise_systems .......... PRACTICE
-solution_architecture ....... PRACTICE
-integrations ................ PRACTICE
-security_by_design .......... PRACTICE
-automation .................. PRACTICE
-ai_and_responsible_tech ..... LEARNING + PRACTICE
-course_records .............. 08 PUBLIC LINKS
-
-operating_mode .............. CONTINUOUS IMPROVEMENT
-```
+| Focus | Course or program | Provider | Record |
+| --- | --- | --- | --- |
+| Security | Security and Ethical Hacking Specialization | University of Colorado Boulder | [View](https://www.coursera.org/account/accomplishments/specialization/MBWC3BLK5HWE) |
+| Security | Cyber Security — Technology and Governance Specialization | University of London | [View](https://www.coursera.org/account/accomplishments/specialization/S5C3LO2DLGSK) |
+| Security | SSCP Preparation Specialization | Packt | [View](https://www.coursera.org/account/accomplishments/specialization/6K0PI6RM0JHG) |
+| Architecture | Software Design and Architecture | University of Alberta | [View](https://www.coursera.org/account/accomplishments/specialization/HJ5SN309LCAO) |
+| Enterprise | SAP Technology Consultant Professional Certificate | SAP | [View](https://www.coursera.org/account/accomplishments/professional-cert/YUOP4VIHY6BJ) |
+| AI / ML | Machine Learning Specialization | Stanford Online / DeepLearning.AI | [View](https://www.coursera.org/account/accomplishments/specialization/XZ95HNBJ8GCD) |
+| AI / ML | AI Product Management Specialization | Duke University | [View](https://www.coursera.org/account/accomplishments/specialization/NJ75BQTI6MZX) |
+| Ethics | Computing, Ethics, and Society Specialization | University of Colorado Boulder | [View](https://www.coursera.org/account/accomplishments/specialization/2DJ807QGY64L) |
 
 ---
 
 <div align="center">
 
-### `ESTABLISH CONNECTION`
+<strong>BUILD SYSTEMS THAT SURVIVE CONTACT WITH REALITY.</strong>
 
-[LinkedIn](https://www.linkedin.com/in/zechbirth) · [GitHub](https://github.com/zechbirth)
-
-<sub>Further reading on responsible AI: <a href="https://www.wemustactnow.ai">We Must Act Now</a> .</sub>
-
-<br>
-
-<sub>BUILD SYSTEMS THAT SURVIVE CONTACT WITH REALITY.</sub>
+<p><a href="https://www.linkedin.com/in/zechbirth">LinkedIn</a> · <a href="https://github.com/zechbirth">GitHub</a></p>
 
 </div>
