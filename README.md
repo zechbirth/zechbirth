@@ -6,9 +6,6 @@
 Senior Systems Analyst · Enterprise Systems · Solution Design
 
 <p>
-  <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-selected-1F2937?style=for-the-badge"></a>
-  <a href="./README.pt-BR.md"><img alt="Português" src="https://img.shields.io/badge/Portugu%C3%AAs-ler%20em%20PT--BR-0A66C2?style=for-the-badge"></a>
-</p>
 
 <a href="https://www.linkedin.com/in/zechbirth"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://github.com/zechbirth"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-zechbirth-181717?style=flat-square&logo=github&logoColor=white"></a>
